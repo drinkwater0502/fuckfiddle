@@ -15,7 +15,7 @@ myfidImg = './myfid.png'
 def checkforenemyfiddle():
 
     while True:
-        fid = imagesearch(myfidImg, 0.8)
+        fid = imagesearch(fidImg, 0.8)
         if not fid[0] == -1:
             print("ENEMY FIDDLESTIX FOUND, EXITING IMMEDIATELY")
             break
